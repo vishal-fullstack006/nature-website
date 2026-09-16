@@ -1368,9 +1368,6 @@ img {
     letter-spacing: 1px;
 }
 
-
-/* ================= INFORMATION ================= */
-
 .information {
     background: white;
 }
@@ -1422,8 +1419,6 @@ img {
     margin-top: 3px;
 }
 
-
-/* ================= CONTACT ================= */
 
 .contact {
     background: var(--cream-dark);
@@ -1592,13 +1587,6 @@ img {
     font-size: 9px;
 }
 
-
-/* =========================================================
-   RESPONSIVE DESIGN
-========================================================= */
-
-
-/* ================= TABLET ================= */
 
 @media (max-width: 1000px) {
 
@@ -1823,8 +1811,6 @@ img {
     }
 
 
-    /* Membership */
-
     .membership {
         padding: 75px 0;
     }
@@ -1839,10 +1825,6 @@ img {
         width: 280px;
         max-width: 100%;
     }
-
-
-    /* Information */
-
     .info-grid {
         grid-template-columns: 1fr;
         gap: 50px;
@@ -1852,8 +1834,6 @@ img {
         font-size: 39px;
     }
 
-
-    /* Contact */
 
     .contact-grid {
         grid-template-columns: 1fr;
@@ -1881,9 +1861,6 @@ img {
     }
 
 }
-
-
-/* ================= SMALL MOBILE ================= */
 
 @media (max-width: 480px) {
 

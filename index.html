@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="Lumina Library - A modern academic library offering books, digital resources, research assistance, quiet study spaces and community learning.">
+        content="Lumina Library — A modern digital and physical library designed for curious minds.">
 
-    <title>Lumina Library | Knowledge. Discovery. Community.</title>
+    <title>Lumina Library | Where Stories Meet Imagination</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,44 +19,69 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
         rel="stylesheet">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
+    <!-- =========================
+         BACKGROUND EFFECTS
+    ========================== -->
+
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-grid"></div>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
 
     <header class="header">
-        <div class="container nav-wrapper">
+
+        <div class="container nav">
 
             <a href="#home" class="logo">
-                <span class="logo-mark">L</span>
-                <span>
+                <span class="logo-mark">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+
+                <span class="logo-text">
                     <strong>Lumina</strong>
                     <small>LIBRARY</small>
                 </span>
             </a>
 
+
             <nav class="navigation">
+
                 <a href="#home" class="active">Home</a>
                 <a href="#about">About</a>
-                <a href="#subjects">Subjects</a>
+                <a href="#categories">Categories</a>
                 <a href="#books">Books</a>
                 <a href="#services">Services</a>
-                <a href="#membership">Membership</a>
                 <a href="#contact">Contact</a>
+
             </nav>
 
-            <a href="#membership" class="nav-button">Join Library</a>
+
+            <a href="#membership" class="nav-button">
+                Join Now
+                <span>→</span>
+            </a>
 
         </div>
+
     </header>
 
 
     <main>
 
-        <!-- ================= HERO ================= -->
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
 
         <section class="hero" id="home">
 
@@ -63,100 +89,156 @@
 
                 <div class="hero-content">
 
-                    <p class="eyebrow">WELCOME TO LUMINA LIBRARY</p>
+                    <div class="eyebrow">
+                        <span class="eyebrow-dot"></span>
+                        YOUR NEXT CHAPTER STARTS HERE
+                    </div>
 
                     <h1>
-                        A place where
-                        <span>knowledge</span>
-                        comes alive.
+                        Where Stories
+                        <span>Meet Imagination.</span>
                     </h1>
 
-                    <p class="hero-description">
-                        Discover books, explore new subjects, find a quiet place to
-                        study and connect with ideas that inspire curiosity.
+                    <p>
+                        Discover thousands of stories, ideas and possibilities
+                        inside a beautifully designed space created for curious minds.
                     </p>
 
                     <div class="hero-buttons">
-                        <a href="#books" class="btn btn-primary">Explore Books</a>
-                        <a href="#about" class="btn btn-outline">Discover Lumina</a>
+
+                        <a href="#books" class="btn btn-primary">
+                            Explore Collection
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#about" class="btn btn-outline">
+                            Discover Lumina
+                            <span>→</span>
+                        </a>
+
                     </div>
 
-                    <div class="hero-note">
-                        <span class="small-line"></span>
-                        <p>Open to learners, researchers and curious minds.</p>
+
+                    <div class="hero-trust">
+
+                        <div class="avatars">
+                            <span>V</span>
+                            <span>A</span>
+                            <span>R</span>
+                            <span>+</span>
+                        </div>
+
+                        <div>
+                            <strong>12,000+</strong>
+                            <small>Readers exploring with us</small>
+                        </div>
+
                     </div>
 
                 </div>
 
 
-                <!-- Library Shelf Illustration -->
+                <!-- 3D BOOK SCENE -->
 
-                <div class="library-visual">
+                <div class="hero-visual">
 
-                    <div class="visual-label">
-                        <span>EST.</span>
-                        <strong>2026</strong>
-                    </div>
+                    <div class="visual-glow"></div>
 
-                    <div class="bookshelf">
+                    <div class="book-scene">
 
-                        <div class="shelf-row">
+                        <div class="floating-card card-top">
+                            <span class="mini-icon">✦</span>
+                            <div>
+                                <strong>50K+</strong>
+                                <small>Books</small>
+                            </div>
+                        </div>
 
-                            <div class="book book-green">
-                                <span>HISTORY</span>
+
+                        <div class="floating-card card-bottom">
+                            <span class="mini-icon star">★</span>
+                            <div>
+                                <strong>4.9/5</strong>
+                                <small>Reader Rating</small>
+                            </div>
+                        </div>
+
+
+                        <div class="book-stack">
+
+                            <div class="book book-back">
+                                <div class="book-cover">
+                                    <span>IDEAS</span>
+                                    <strong>BEYOND</strong>
+                                    <small>THE ORDINARY</small>
+                                </div>
                             </div>
 
-                            <div class="book book-brown">
-                                <span>ART</span>
+                            <div class="book book-middle">
+                                <div class="book-cover">
+                                    <span>THE ART OF</span>
+                                    <strong>THINKING</strong>
+                                    <small>DEEPER</small>
+                                </div>
                             </div>
 
-                            <div class="book book-gold">
-                                <span>SCIENCE</span>
-                            </div>
+                            <div class="book book-main">
 
-                            <div class="book book-dark">
-                                <span>MATH</span>
-                            </div>
+                                <div class="book-cover">
 
-                            <div class="book book-red">
-                                <span>FICTION</span>
+                                    <div class="cover-symbol">L</div>
+
+                                    <span>LUMINA</span>
+
+                                    <strong>
+                                        THE
+                                        <br>
+                                        ART
+                                        <br>
+                                        OF
+                                        <br>
+                                        READING
+                                    </strong>
+
+                                    <small>EST. 2026</small>
+
+                                </div>
+
                             </div>
 
                         </div>
 
-                        <div class="shelf-row">
-
-                            <div class="book book-dark tall">
-                                <span>COMPUTER<br>SCIENCE</span>
-                            </div>
-
-                            <div class="book book-gold">
-                                <span>BUSINESS</span>
-                            </div>
-
-                            <div class="book book-green tall">
-                                <span>PSYCHOLOGY</span>
-                            </div>
-
-                            <div class="book book-brown">
-                                <span>POETRY</span>
-                            </div>
-
-                            <div class="book book-red tall">
-                                <span>LITERATURE</span>
-                            </div>
-
-                        </div>
-
-                        <div class="wooden-shelf"></div>
+                        <div class="scene-shadow"></div>
 
                     </div>
 
-                    <div class="visual-card">
-                        <span class="card-number">50K+</span>
-                        <span>Books & Resources</span>
-                    </div>
+                </div>
 
+            </div>
+
+
+            <!-- HERO STATS -->
+
+            <div class="container hero-stats">
+
+                <div class="stat">
+                    <span class="stat-number">50K<span>+</span></span>
+                    <span class="stat-label">Books Available</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number">12K<span>+</span></span>
+                    <span class="stat-label">Active Members</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number">30<span>+</span></span>
+                    <span class="stat-label">Book Categories</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number">24<span>/7</span></span>
+                    <span class="stat-label">Digital Access</span>
                 </div>
 
             </div>
@@ -164,53 +246,31 @@
         </section>
 
 
-        <!-- ================= QUICK INFORMATION ================= -->
+        <!-- =========================
+             ABOUT
+        ========================== -->
 
-        <section class="library-facts">
-
-            <div class="container facts-grid">
-
-                <div class="fact">
-                    <strong>50,000+</strong>
-                    <span>Books & Resources</span>
-                </div>
-
-                <div class="fact">
-                    <strong>8</strong>
-                    <span>Major Subject Areas</span>
-                </div>
-
-                <div class="fact">
-                    <strong>12,000+</strong>
-                    <span>Registered Members</span>
-                </div>
-
-                <div class="fact">
-                    <strong>24/7</strong>
-                    <span>Digital Library Access</span>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= ABOUT ================= -->
-
-        <section class="section about" id="about">
+        <section class="section about-section" id="about">
 
             <div class="container">
 
                 <div class="section-heading">
+
                     <div>
-                        <p class="eyebrow">ABOUT LUMINA</p>
-                        <h2>More than shelves.<br><em>A space for discovery.</em></h2>
+                        <span class="section-label">ABOUT LUMINA</span>
+
+                        <h2>
+                            A space built for
+                            <em>curious minds.</em>
+                        </h2>
                     </div>
 
-                    <p class="section-intro">
-                        Lumina Library brings together books, digital resources,
-                        study spaces and people with a shared love of learning.
+                    <p>
+                        We believe a library should be more than shelves filled
+                        with books. It should be a place where ideas grow,
+                        creativity begins and knowledge becomes an experience.
                     </p>
+
                 </div>
 
 
@@ -218,59 +278,55 @@
 
                     <div class="about-image">
 
-                        <div class="reading-room">
-                            <div class="window window-one"></div>
-                            <div class="window window-two"></div>
+                        <div class="image-placeholder">
+                            <div class="architecture-lines"></div>
 
-                            <div class="table">
-                                <div class="lamp"></div>
-                                <div class="book-stack"></div>
+                            <div class="image-content">
+                                <span>EST. 2026</span>
+                                <strong>LUMINA</strong>
+                                <small>LIBRARY & KNOWLEDGE SPACE</small>
                             </div>
-
-                            <div class="chair"></div>
                         </div>
 
-                        <div class="image-caption">
-                            <span>THE READING ROOM</span>
-                            <strong>A quiet corner for curious minds.</strong>
+                        <div class="experience-card">
+                            <strong>10+</strong>
+                            <span>Years of<br>Knowledge</span>
                         </div>
 
                     </div>
 
 
-                    <div class="about-text">
+                    <div class="about-content">
+
+                        <span class="quote-mark">“</span>
+
+                        <h3>
+                            A beautiful environment
+                            changes the way we learn.
+                        </h3>
 
                         <p>
-                            Founded with a simple idea — that access to knowledge
-                            can change lives — Lumina Library is designed for
-                            students, researchers, professionals and lifelong
-                            learners.
+                            Lumina combines the timeless atmosphere of a traditional
+                            library with the convenience of a modern digital learning
+                            environment.
                         </p>
 
-                        <p>
-                            Our collection covers academic subjects, literature,
-                            technology, science, business, history, arts and
-                            many more areas of interest.
-                        </p>
-
-                        <div class="about-points">
+                        <div class="about-features">
 
                             <div>
-                                <span>01</span>
-                                <strong>Learn</strong>
-                                <p>Access reliable resources for study and research.</p>
+                                <span class="feature-icon">✦</span>
+                                <div>
+                                    <strong>Thoughtfully Curated</strong>
+                                    <small>Collections selected for curious minds.</small>
+                                </div>
                             </div>
 
                             <div>
-                                <span>02</span>
-                                <strong>Explore</strong>
-                                <p>Discover books and ideas beyond your usual subjects.</p>
-                            </div>
-
-                            <div>
-                                <span>03</span>
-                                <strong>Connect</strong>
-                                <p>Take part in events, discussions and learning communities.</p>
+                                <span class="feature-icon">◈</span>
+                                <div>
+                                    <strong>Modern Experience</strong>
+                                    <small>Designed around comfort and discovery.</small>
+                                </div>
                             </div>
 
                         </div>
@@ -284,147 +340,144 @@
         </section>
 
 
-        <!-- ================= CATALOG ================= -->
+        <!-- =========================
+             CATEGORIES
+        ========================== -->
 
-        <section class="catalog-section">
-
-            <div class="container">
-
-                <div class="catalog-box">
-
-                    <div class="catalog-heading">
-                        <p class="eyebrow">LIBRARY CATALOG</p>
-                        <h2>Find your next book.</h2>
-                        <p>
-                            Search our collection by title, author, subject or ISBN.
-                        </p>
-                    </div>
-
-                    <form class="catalog-form">
-
-                        <div class="search-field">
-                            <span>⌕</span>
-                            <input type="text" placeholder="Search books, authors, subjects...">
-                        </div>
-
-                        <select>
-                            <option>All Subjects</option>
-                            <option>Computer Science</option>
-                            <option>Science</option>
-                            <option>Mathematics</option>
-                            <option>History</option>
-                            <option>Literature</option>
-                            <option>Business</option>
-                            <option>Psychology</option>
-                            <option>Art & Design</option>
-                        </select>
-
-                        <button type="submit">Search Catalog</button>
-
-                    </form>
-
-                    <p class="catalog-note">
-                        Tip: Try searching for a subject such as "Computer Science" or "History".
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= SUBJECTS ================= -->
-
-        <section class="section subjects" id="subjects">
+        <section class="section categories-section" id="categories">
 
             <div class="container">
 
-                <div class="section-heading centered">
+                <div class="center-heading">
 
-                    <p class="eyebrow">BROWSE COLLECTION</p>
+                    <span class="section-label">EXPLORE COLLECTIONS</span>
 
-                    <h2>Explore by subject</h2>
+                    <h2>
+                        Something for every
+                        <em>curiosity.</em>
+                    </h2>
 
                     <p>
-                        Find resources organized around the subjects people
-                        study, research and enjoy.
+                        Explore carefully organized collections across knowledge,
+                        creativity, technology and imagination.
                     </p>
 
                 </div>
 
 
-                <div class="subject-grid">
+                <div class="category-grid">
 
-                    <a href="#books" class="subject-card">
-                        <span class="subject-number">01</span>
-                        <div class="subject-icon">⌘</div>
-                        <h3>Computer Science</h3>
-                        <p>Programming, AI, software and technology.</p>
-                        <span class="book-count">1,850+ books</span>
+                    <a href="#books" class="category-card">
+
+                        <div class="category-icon icon-fiction">
+                            <span>✦</span>
+                        </div>
+
+                        <span class="category-number">01</span>
+
+                        <h3>Fiction</h3>
+
+                        <p>
+                            Stories that transport you beyond reality.
+                        </p>
+
+                        <span class="category-arrow">↗</span>
+
                     </a>
 
 
-                    <a href="#books" class="subject-card">
-                        <span class="subject-number">02</span>
-                        <div class="subject-icon">⚗</div>
+                    <a href="#books" class="category-card featured-category">
+
+                        <div class="category-icon icon-science">
+                            <span>⚛</span>
+                        </div>
+
+                        <span class="category-number">02</span>
+
                         <h3>Science</h3>
-                        <p>Physics, chemistry, biology and discovery.</p>
-                        <span class="book-count">4,200+ books</span>
+
+                        <p>
+                            Understand the universe and everything inside it.
+                        </p>
+
+                        <span class="category-arrow">↗</span>
+
                     </a>
 
 
-                    <a href="#books" class="subject-card">
-                        <span class="subject-number">03</span>
-                        <div class="subject-icon">∑</div>
-                        <h3>Mathematics</h3>
-                        <p>Numbers, logic, statistics and problem solving.</p>
-                        <span class="book-count">2,100+ books</span>
+                    <a href="#books" class="category-card">
+
+                        <div class="category-icon icon-tech">
+                            <span>⌘</span>
+                        </div>
+
+                        <span class="category-number">03</span>
+
+                        <h3>Technology</h3>
+
+                        <p>
+                            Explore innovation shaping our future.
+                        </p>
+
+                        <span class="category-arrow">↗</span>
+
                     </a>
 
 
-                    <a href="#books" class="subject-card">
-                        <span class="subject-number">04</span>
-                        <div class="subject-icon">⌛</div>
+                    <a href="#books" class="category-card">
+
+                        <div class="category-icon icon-history">
+                            <span>▥</span>
+                        </div>
+
+                        <span class="category-number">04</span>
+
                         <h3>History</h3>
-                        <p>Civilizations, cultures and historical events.</p>
-                        <span class="book-count">3,600+ books</span>
+
+                        <p>
+                            Discover stories that shaped civilization.
+                        </p>
+
+                        <span class="category-arrow">↗</span>
+
                     </a>
 
 
-                    <a href="#books" class="subject-card">
-                        <span class="subject-number">05</span>
-                        <div class="subject-icon">Aa</div>
-                        <h3>Literature</h3>
-                        <p>Novels, poetry, classics and world literature.</p>
-                        <span class="book-count">6,800+ books</span>
-                    </a>
+                    <a href="#books" class="category-card">
 
+                        <div class="category-icon icon-art">
+                            <span>◒</span>
+                        </div>
 
-                    <a href="#books" class="subject-card">
-                        <span class="subject-number">06</span>
-                        <div class="subject-icon">↗</div>
-                        <h3>Business</h3>
-                        <p>Management, finance, economics and entrepreneurship.</p>
-                        <span class="book-count">2,950+ books</span>
-                    </a>
+                        <span class="category-number">05</span>
 
-
-                    <a href="#books" class="subject-card">
-                        <span class="subject-number">07</span>
-                        <div class="subject-icon">◉</div>
-                        <h3>Psychology</h3>
-                        <p>Mind, behavior, learning and human development.</p>
-                        <span class="book-count">1,900+ books</span>
-                    </a>
-
-
-                    <a href="#books" class="subject-card">
-                        <span class="subject-number">08</span>
-                        <div class="subject-icon">◇</div>
                         <h3>Art & Design</h3>
-                        <p>Visual arts, architecture, design and creativity.</p>
-                        <span class="book-count">2,400+ books</span>
+
+                        <p>
+                            Creativity, aesthetics and visual thinking.
+                        </p>
+
+                        <span class="category-arrow">↗</span>
+
+                    </a>
+
+
+                    <a href="#books" class="category-card">
+
+                        <div class="category-icon icon-business">
+                            <span>◇</span>
+                        </div>
+
+                        <span class="category-number">06</span>
+
+                        <h3>Business</h3>
+
+                        <p>
+                            Ideas for building, leading and creating.
+                        </p>
+
+                        <span class="category-arrow">↗</span>
+
                     </a>
 
                 </div>
@@ -434,293 +487,159 @@
         </section>
 
 
-        <!-- ================= FEATURED BOOKS ================= -->
+        <!-- =========================
+             BOOKS
+        ========================== -->
 
         <section class="section books-section" id="books">
 
             <div class="container">
 
-                <div class="section-heading">
+                <div class="books-heading">
 
                     <div>
-                        <p class="eyebrow">FEATURED COLLECTION</p>
-                        <h2>Books worth opening.</h2>
+                        <span class="section-label">EDITOR'S PICKS</span>
+
+                        <h2>
+                            Books worth
+                            <em>discovering.</em>
+                        </h2>
                     </div>
 
-                    <a href="#catalog" class="text-link">
-                        View entire collection →
+                    <a href="#contact" class="text-link">
+                        View entire collection
+                        <span>→</span>
                     </a>
 
                 </div>
 
 
-                <div class="books-grid">
+                <div class="book-grid">
 
-
-                    <!-- Book 1 -->
+                    <!-- BOOK 1 -->
 
                     <article class="book-card">
 
-                        <div class="book-cover cover-green">
+                        <div class="book-card-cover cover-one">
 
-                            <span class="cover-subject">COMPUTER SCIENCE</span>
+                            <span class="book-category">SCIENCE</span>
 
-                            <h3>
-                                The Art of<br>
-                                Computer Science
-                            </h3>
+                            <div class="book-orbit">
+                                <span></span>
+                            </div>
 
-                            <span class="cover-author">A. Reynolds</span>
+                            <h3>BEYOND<br>THE<br>STARS</h3>
 
-                            <span class="cover-mark">L</span>
+                            <small>Exploring the Unknown</small>
+
+                            <span class="book-year">2026</span>
 
                         </div>
 
                         <div class="book-info">
 
-                            <div class="book-top">
-                                <span class="category">Technology</span>
-                                <span class="rating">★ 4.9</span>
+                            <div>
+                                <h3>Beyond the Stars</h3>
+                                <p>Elena Morgan</p>
                             </div>
 
-                            <h3>The Art of Computer Science</h3>
-
-                            <p class="author">Andrew Reynolds</p>
-
-                            <div class="book-meta">
-                                <span>2025 Edition</span>
-                                <span class="available">Available</span>
-                            </div>
-
-                            <div class="book-actions">
-                                <a href="#contact">View Book</a>
-                                <span>ISBN 978-1-23456</span>
-                            </div>
+                            <span class="rating">★ 4.9</span>
 
                         </div>
 
                     </article>
 
 
-                    <!-- Book 2 -->
+                    <!-- BOOK 2 -->
 
                     <article class="book-card">
 
-                        <div class="book-cover cover-brown">
+                        <div class="book-card-cover cover-two">
 
-                            <span class="cover-subject">HISTORY</span>
+                            <span class="book-category">PHILOSOPHY</span>
 
-                            <h3>
-                                A World<br>
-                                Remembered
-                            </h3>
+                            <div class="thinking-symbol">◉</div>
 
-                            <span class="cover-author">M. Carter</span>
+                            <h3>THE ART<br>OF<br>THINKING</h3>
 
-                            <span class="cover-mark">L</span>
+                            <small>Ideas That Change Perspective</small>
+
+                            <span class="book-year">2026</span>
 
                         </div>
 
                         <div class="book-info">
 
-                            <div class="book-top">
-                                <span class="category">History</span>
-                                <span class="rating">★ 4.8</span>
+                            <div>
+                                <h3>The Art of Thinking</h3>
+                                <p>Marcus Reed</p>
                             </div>
 
-                            <h3>A World Remembered</h3>
-
-                            <p class="author">Michael Carter</p>
-
-                            <div class="book-meta">
-                                <span>2024 Edition</span>
-                                <span class="available">Available</span>
-                            </div>
-
-                            <div class="book-actions">
-                                <a href="#contact">View Book</a>
-                                <span>ISBN 978-1-84521</span>
-                            </div>
+                            <span class="rating">★ 4.8</span>
 
                         </div>
 
                     </article>
 
 
-                    <!-- Book 3 -->
+                    <!-- BOOK 3 -->
 
                     <article class="book-card">
 
-                        <div class="book-cover cover-gold">
+                        <div class="book-card-cover cover-three">
 
-                            <span class="cover-subject">SCIENCE</span>
+                            <span class="book-category">TECHNOLOGY</span>
 
-                            <h3>
-                                Beyond<br>
-                                the Stars
-                            </h3>
+                            <div class="code-symbol">&lt;/&gt;</div>
 
-                            <span class="cover-author">E. Morgan</span>
+                            <h3>CODE<br>&<br>CREATIVITY</h3>
 
-                            <span class="cover-mark">L</span>
+                            <small>Designing Digital Futures</small>
+
+                            <span class="book-year">2026</span>
 
                         </div>
 
                         <div class="book-info">
 
-                            <div class="book-top">
-                                <span class="category">Science</span>
-                                <span class="rating">★ 4.9</span>
+                            <div>
+                                <h3>Code & Creativity</h3>
+                                <p>Alex Carter</p>
                             </div>
 
-                            <h3>Beyond the Stars</h3>
-
-                            <p class="author">Elena Morgan</p>
-
-                            <div class="book-meta">
-                                <span>2025 Edition</span>
-                                <span class="issued">Issued</span>
-                            </div>
-
-                            <div class="book-actions">
-                                <a href="#contact">View Book</a>
-                                <span>ISBN 978-1-56782</span>
-                            </div>
+                            <span class="rating">★ 4.9</span>
 
                         </div>
 
                     </article>
 
 
-                    <!-- Book 4 -->
+                    <!-- BOOK 4 -->
 
                     <article class="book-card">
 
-                        <div class="book-cover cover-red">
+                        <div class="book-card-cover cover-four">
 
-                            <span class="cover-subject">LITERATURE</span>
+                            <span class="book-category">FICTION</span>
 
-                            <h3>
-                                Midnight<br>
-                                Stories
-                            </h3>
+                            <div class="moon-symbol">☾</div>
 
-                            <span class="cover-author">S. Bennett</span>
+                            <h3>MIDNIGHT<br>STORIES</h3>
 
-                            <span class="cover-mark">L</span>
+                            <small>Tales From Another World</small>
+
+                            <span class="book-year">2026</span>
 
                         </div>
 
                         <div class="book-info">
 
-                            <div class="book-top">
-                                <span class="category">Literature</span>
-                                <span class="rating">★ 4.7</span>
+                            <div>
+                                <h3>Midnight Stories</h3>
+                                <p>Sofia Bennett</p>
                             </div>
 
-                            <h3>Midnight Stories</h3>
-
-                            <p class="author">Sofia Bennett</p>
-
-                            <div class="book-meta">
-                                <span>2023 Edition</span>
-                                <span class="available">Available</span>
-                            </div>
-
-                            <div class="book-actions">
-                                <a href="#contact">View Book</a>
-                                <span>ISBN 978-1-90843</span>
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Book 5 -->
-
-                    <article class="book-card">
-
-                        <div class="book-cover cover-dark">
-
-                            <span class="cover-subject">PSYCHOLOGY</span>
-
-                            <h3>
-                                The Human<br>
-                                Mind
-                            </h3>
-
-                            <span class="cover-author">D. Reed</span>
-
-                            <span class="cover-mark">L</span>
-
-                        </div>
-
-                        <div class="book-info">
-
-                            <div class="book-top">
-                                <span class="category">Psychology</span>
-                                <span class="rating">★ 4.8</span>
-                            </div>
-
-                            <h3>The Human Mind</h3>
-
-                            <p class="author">Daniel Reed</p>
-
-                            <div class="book-meta">
-                                <span>2025 Edition</span>
-                                <span class="available">Available</span>
-                            </div>
-
-                            <div class="book-actions">
-                                <a href="#contact">View Book</a>
-                                <span>ISBN 978-1-67231</span>
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Book 6 -->
-
-                    <article class="book-card">
-
-                        <div class="book-cover cover-blue">
-
-                            <span class="cover-subject">BUSINESS</span>
-
-                            <h3>
-                                Building<br>
-                                Better Ideas
-                            </h3>
-
-                            <span class="cover-author">J. Parker</span>
-
-                            <span class="cover-mark">L</span>
-
-                        </div>
-
-                        <div class="book-info">
-
-                            <div class="book-top">
-                                <span class="category">Business</span>
-                                <span class="rating">★ 4.6</span>
-                            </div>
-
-                            <h3>Building Better Ideas</h3>
-
-                            <p class="author">James Parker</p>
-
-                            <div class="book-meta">
-                                <span>2024 Edition</span>
-                                <span class="issued">Issued</span>
-                            </div>
-
-                            <div class="book-actions">
-                                <a href="#contact">View Book</a>
-                                <span>ISBN 978-1-72104</span>
-                            </div>
+                            <span class="rating">★ 4.7</span>
 
                         </div>
 
@@ -733,225 +652,106 @@
         </section>
 
 
-        <!-- ================= NEW ARRIVALS ================= -->
+        <!-- =========================
+             SERVICES
+        ========================== -->
 
-        <section class="new-arrivals">
-
-            <div class="container arrivals-grid">
-
-                <div class="arrivals-heading">
-
-                    <p class="eyebrow">JUST ARRIVED</p>
-
-                    <h2>
-                        New books.<br>
-                        New perspectives.
-                    </h2>
-
-                    <p>
-                        Explore recently added titles from across our
-                        growing collection.
-                    </p>
-
-                    <a href="#books" class="btn btn-light">
-                        Browse New Arrivals
-                    </a>
-
-                </div>
-
-
-                <div class="arrival-list">
-
-                    <div class="arrival-item">
-
-                        <span class="arrival-number">01</span>
-
-                        <div>
-                            <h3>Introduction to Artificial Intelligence</h3>
-                            <p>Computer Science · 2026 Edition</p>
-                        </div>
-
-                        <span class="arrival-status">NEW</span>
-
-                    </div>
-
-
-                    <div class="arrival-item">
-
-                        <span class="arrival-number">02</span>
-
-                        <div>
-                            <h3>Modern World History</h3>
-                            <p>History · 2026 Edition</p>
-                        </div>
-
-                        <span class="arrival-status">NEW</span>
-
-                    </div>
-
-
-                    <div class="arrival-item">
-
-                        <span class="arrival-number">03</span>
-
-                        <div>
-                            <h3>Principles of Modern Psychology</h3>
-                            <p>Psychology · 2026 Edition</p>
-                        </div>
-
-                        <span class="arrival-status">NEW</span>
-
-                    </div>
-
-
-                    <div class="arrival-item">
-
-                        <span class="arrival-number">04</span>
-
-                        <div>
-                            <h3>Design Thinking Handbook</h3>
-                            <p>Art & Design · 2026 Edition</p>
-                        </div>
-
-                        <span class="arrival-status">NEW</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= SERVICES ================= -->
-
-        <section class="section services" id="services">
+        <section class="section services-section" id="services">
 
             <div class="container">
 
-                <div class="section-heading centered">
+                <div class="center-heading">
 
-                    <p class="eyebrow">LIBRARY SERVICES</p>
+                    <span class="section-label">MORE THAN A LIBRARY</span>
 
-                    <h2>Designed around your learning.</h2>
-
-                    <p>
-                        From finding a book to finding a quiet place to think,
-                        Lumina provides services for every stage of your journey.
-                    </p>
+                    <h2>
+                        Designed around
+                        <em>your journey.</em>
+                    </h2>
 
                 </div>
 
 
                 <div class="services-grid">
 
-                    <article class="service-card">
+                    <div class="service-card">
 
                         <span class="service-number">01</span>
 
-                        <div class="service-icon">▤</div>
-
-                        <h3>Digital Library</h3>
-
-                        <p>
-                            Access e-books, journals, research papers and
-                            online learning resources anytime.
-                        </p>
-
-                        <a href="#contact">Learn more →</a>
-
-                    </article>
-
-
-                    <article class="service-card">
-
-                        <span class="service-number">02</span>
-
-                        <div class="service-icon">□</div>
+                        <div class="service-icon">
+                            <span>▣</span>
+                        </div>
 
                         <h3>Quiet Study Rooms</h3>
 
                         <p>
-                            Dedicated individual and group study spaces
-                            for focused learning.
+                            Focus without distractions in dedicated
+                            individual and group study spaces.
                         </p>
 
-                        <a href="#contact">Learn more →</a>
+                        <a href="#contact">Explore service →</a>
 
-                    </article>
+                    </div>
 
 
-                    <article class="service-card">
+                    <div class="service-card service-highlight">
+
+                        <span class="service-number">02</span>
+
+                        <div class="service-icon">
+                            <span>◈</span>
+                        </div>
+
+                        <h3>Digital Library</h3>
+
+                        <p>
+                            Access digital resources, journals and
+                            learning material wherever you are.
+                        </p>
+
+                        <a href="#contact">Explore service →</a>
+
+                    </div>
+
+
+                    <div class="service-card">
 
                         <span class="service-number">03</span>
 
-                        <div class="service-icon">?</div>
+                        <div class="service-icon">
+                            <span>⌁</span>
+                        </div>
 
-                        <h3>Research Assistance</h3>
+                        <h3>Research Support</h3>
 
                         <p>
-                            Get guidance from library staff when searching
-                            for reliable academic information.
+                            Get guidance from our team when your
+                            research needs a deeper direction.
                         </p>
 
-                        <a href="#contact">Learn more →</a>
+                        <a href="#contact">Explore service →</a>
 
-                    </article>
+                    </div>
 
 
-                    <article class="service-card">
+                    <div class="service-card">
 
                         <span class="service-number">04</span>
 
-                        <div class="service-icon">↗</div>
-
-                        <h3>Book Reservation</h3>
-
-                        <p>
-                            Reserve available books and collect them from
-                            the circulation desk.
-                        </p>
-
-                        <a href="#contact">Learn more →</a>
-
-                    </article>
-
-
-                    <article class="service-card">
-
-                        <span class="service-number">05</span>
-
-                        <div class="service-icon">+</div>
-
-                        <h3>Membership</h3>
-
-                        <p>
-                            Become a member and enjoy borrowing privileges,
-                            study spaces and digital resources.
-                        </p>
-
-                        <a href="#membership">Join now →</a>
-
-                    </article>
-
-
-                    <article class="service-card">
-
-                        <span class="service-number">06</span>
-
-                        <div class="service-icon">◌</div>
+                        <div class="service-icon">
+                            <span>✧</span>
+                        </div>
 
                         <h3>Community Events</h3>
 
                         <p>
-                            Join book discussions, workshops, lectures
-                            and educational events.
+                            Join book clubs, workshops and inspiring
+                            conversations with fellow readers.
                         </p>
 
-                        <a href="#events">View events →</a>
+                        <a href="#contact">Explore service →</a>
 
-                    </article>
+                    </div>
 
                 </div>
 
@@ -960,153 +760,50 @@
         </section>
 
 
-        <!-- ================= EVENTS ================= -->
+        <!-- =========================
+             MEMBERSHIP
+        ========================== -->
 
-        <section class="events-section" id="events">
+        <section class="membership-section" id="membership">
 
             <div class="container">
 
-                <div class="section-heading">
-
-                    <div>
-                        <p class="eyebrow">AT THE LIBRARY</p>
-                        <h2>Upcoming events.</h2>
-                    </div>
-
-                    <p class="section-intro">
-                        Learning becomes richer when ideas are shared.
-                    </p>
-
-                </div>
-
-
-                <div class="events-grid">
-
-                    <article class="event-card">
-
-                        <div class="event-date">
-                            <strong>18</strong>
-                            <span>SEP</span>
-                        </div>
-
-                        <div class="event-content">
-
-                            <span class="event-type">BOOK DISCUSSION</span>
-
-                            <h3>The Future of Technology & Society</h3>
-
-                            <p>
-                                An open discussion exploring how technology
-                                is changing the way we live and learn.
-                            </p>
-
-                            <span class="event-time">5:00 PM · Reading Hall</span>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="event-card">
-
-                        <div class="event-date">
-                            <strong>24</strong>
-                            <span>SEP</span>
-                        </div>
-
-                        <div class="event-content">
-
-                            <span class="event-type">WORKSHOP</span>
-
-                            <h3>Research Skills for Students</h3>
-
-                            <p>
-                                Learn how to find, evaluate and organize
-                                reliable academic information.
-                            </p>
-
-                            <span class="event-time">3:00 PM · Seminar Room</span>
-
-                        </div>
-
-                    </article>
-
-
-                    <article class="event-card">
-
-                        <div class="event-date">
-                            <strong>02</strong>
-                            <span>OCT</span>
-                        </div>
-
-                        <div class="event-content">
-
-                            <span class="event-type">LITERARY EVENING</span>
-
-                            <h3>An Evening of Poetry & Stories</h3>
-
-                            <p>
-                                A relaxed evening celebrating local voices,
-                                poetry and the joy of storytelling.
-                            </p>
-
-                            <span class="event-time">6:30 PM · Main Hall</span>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= MEMBERSHIP ================= -->
-
-        <section class="membership" id="membership">
-
-            <div class="container membership-box">
-
-                <div class="membership-content">
-
-                    <p class="eyebrow">BECOME A MEMBER</p>
-
-                    <h2>
-                        Your library card
-                        opens a world of possibilities.
-                    </h2>
-
-                    <p>
-                        Join Lumina and gain access to thousands of books,
-                        digital resources, study spaces and library events.
-                    </p>
-
-                    <a href="#contact" class="btn btn-primary">
-                        Apply for Membership
-                    </a>
-
-                </div>
-
-
                 <div class="membership-card">
 
-                    <div class="card-header">
-                        <span>LUMINA</span>
-                        <span>LIBRARY</span>
+                    <div class="membership-glow"></div>
+
+                    <div class="membership-content">
+
+                        <span class="section-label">BECOME A MEMBER</span>
+
+                        <h2>
+                            Your next chapter
+                            <em>starts here.</em>
+                        </h2>
+
+                        <p>
+                            Become part of a community built around
+                            curiosity, creativity and lifelong learning.
+                        </p>
+
+                        <a href="#contact" class="btn btn-light">
+                            Start Your Journey
+                            <span>↗</span>
+                        </a>
+
                     </div>
 
-                    <div class="card-symbol">L</div>
 
-                    <div class="card-lines">
-                        <span></span>
-                        <span></span>
-                    </div>
+                    <div class="membership-visual">
 
-                    <div class="card-footer">
-                        <span>MEMBER CARD</span>
-                        <span>2026</span>
+                        <div class="membership-ring ring-one"></div>
+                        <div class="membership-ring ring-two"></div>
+                        <div class="membership-ring ring-three"></div>
+
+                        <div class="membership-crown">
+                            ✦
+                        </div>
+
                     </div>
 
                 </div>
@@ -1116,71 +813,11 @@
         </section>
 
 
-        <!-- ================= LIBRARY INFORMATION ================= -->
+        <!-- =========================
+             CONTACT
+        ========================== -->
 
-        <section class="section information">
-
-            <div class="container info-grid">
-
-                <div class="info-column">
-
-                    <p class="eyebrow">WHY LUMINA</p>
-
-                    <h2>A library built for the way people learn today.</h2>
-
-                    <p>
-                        Whether you are preparing for an exam, researching
-                        a project, reading for pleasure or simply looking
-                        for a quiet place, Lumina is here to help.
-                    </p>
-
-                </div>
-
-
-                <div class="info-list">
-
-                    <div class="info-row">
-                        <span>01</span>
-                        <div>
-                            <strong>Extensive Collection</strong>
-                            <p>Books across academic and general-interest subjects.</p>
-                        </div>
-                    </div>
-
-                    <div class="info-row">
-                        <span>02</span>
-                        <div>
-                            <strong>Comfortable Spaces</strong>
-                            <p>Reading rooms, study desks and collaborative areas.</p>
-                        </div>
-                    </div>
-
-                    <div class="info-row">
-                        <span>03</span>
-                        <div>
-                            <strong>Helpful Staff</strong>
-                            <p>Friendly support for finding books and resources.</p>
-                        </div>
-                    </div>
-
-                    <div class="info-row">
-                        <span>04</span>
-                        <div>
-                            <strong>Digital Access</strong>
-                            <p>Online resources available around the clock.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CONTACT ================= -->
-
-        <section class="section contact" id="contact">
+        <section class="section contact-section" id="contact">
 
             <div class="container">
 
@@ -1188,25 +825,29 @@
 
                     <div class="contact-content">
 
-                        <p class="eyebrow">VISIT LUMINA</p>
+                        <span class="section-label">COME SAY HELLO</span>
 
-                        <h2>Come in.<br>Stay curious.</h2>
+                        <h2>
+                            Find your place
+                            <em>among the stories.</em>
+                        </h2>
 
                         <p>
-                            Our doors are open to everyone who believes
-                            there is always something new to learn.
+                            Whether you are looking for a quiet corner,
+                            a new book or a community of curious people,
+                            Lumina is waiting for you.
                         </p>
 
 
-                        <div class="contact-details">
+                        <div class="contact-list">
 
                             <div class="contact-item">
 
                                 <span class="contact-icon">⌖</span>
 
                                 <div>
-                                    <small>ADDRESS</small>
-                                    <p>Knowledge Avenue, City Center</p>
+                                    <small>VISIT US</small>
+                                    <strong>Knowledge Avenue, City Center</strong>
                                 </div>
 
                             </div>
@@ -1218,7 +859,7 @@
 
                                 <div>
                                     <small>EMAIL</small>
-                                    <p>hello@luminalibrary.com</p>
+                                    <strong>hello@luminalibrary.com</strong>
                                 </div>
 
                             </div>
@@ -1226,11 +867,11 @@
 
                             <div class="contact-item">
 
-                                <span class="contact-icon">☎</span>
+                                <span class="contact-icon">◉</span>
 
                                 <div>
-                                    <small>PHONE</small>
-                                    <p>+91 98765 43210</p>
+                                    <small>CALL US</small>
+                                    <strong>+91 98765 43210</strong>
                                 </div>
 
                             </div>
@@ -1240,39 +881,40 @@
                     </div>
 
 
-                    <div class="hours-box">
+                    <div class="hours-card">
 
-                        <p class="eyebrow">OPENING HOURS</p>
+                        <div class="hours-header">
 
-                        <h3>Plan your visit.</h3>
+                            <span>OPENING HOURS</span>
 
-                        <div class="hours-list">
-
-                            <div>
-                                <span>Monday — Friday</span>
-                                <strong>08:00 — 22:00</strong>
-                            </div>
-
-                            <div>
-                                <span>Saturday</span>
-                                <strong>09:00 — 20:00</strong>
-                            </div>
-
-                            <div>
-                                <span>Sunday</span>
-                                <strong>10:00 — 18:00</strong>
-                            </div>
-
-                            <div class="digital-hours">
-                                <span>Digital Library</span>
-                                <strong>24 / 7</strong>
+                            <div class="open-status">
+                                <i></i>
+                                OPEN
                             </div>
 
                         </div>
 
-                        <a href="#membership" class="btn btn-primary">
-                            Become a Member
-                        </a>
+
+                        <div class="hours-row">
+                            <span>Monday — Friday</span>
+                            <strong>08:00 — 22:00</strong>
+                        </div>
+
+                        <div class="hours-row">
+                            <span>Saturday</span>
+                            <strong>09:00 — 20:00</strong>
+                        </div>
+
+                        <div class="hours-row">
+                            <span>Sunday</span>
+                            <strong>10:00 — 18:00</strong>
+                        </div>
+
+
+                        <div class="hours-note">
+                            <span>✦</span>
+                            Digital library available 24/7
+                        </div>
 
                     </div>
 
@@ -1285,20 +927,27 @@
     </main>
 
 
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
     <footer class="footer">
 
         <div class="container">
 
-            <div class="footer-main">
+            <div class="footer-top">
 
                 <div class="footer-brand">
 
-                    <a href="#home" class="logo footer-logo">
+                    <a href="#home" class="logo">
 
-                        <span class="logo-mark">L</span>
+                        <span class="logo-mark">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
 
-                        <span>
+                        <span class="logo-text">
                             <strong>Lumina</strong>
                             <small>LIBRARY</small>
                         </span>
@@ -1306,45 +955,34 @@
                     </a>
 
                     <p>
-                        A modern space for timeless ideas,
-                        meaningful learning and discovery.
+                        A modern space for timeless ideas.
                     </p>
 
                 </div>
 
 
-                <div class="footer-column">
+                <div class="footer-links">
 
-                    <h4>Explore</h4>
+                    <div>
+                        <h4>Explore</h4>
+                        <a href="#about">About</a>
+                        <a href="#categories">Categories</a>
+                        <a href="#books">Books</a>
+                    </div>
 
-                    <a href="#about">About Us</a>
-                    <a href="#subjects">Subjects</a>
-                    <a href="#books">Books</a>
-                    <a href="#events">Events</a>
+                    <div>
+                        <h4>Services</h4>
+                        <a href="#services">Study Rooms</a>
+                        <a href="#services">Digital Library</a>
+                        <a href="#services">Research</a>
+                    </div>
 
-                </div>
-
-
-                <div class="footer-column">
-
-                    <h4>Services</h4>
-
-                    <a href="#services">Digital Library</a>
-                    <a href="#services">Study Rooms</a>
-                    <a href="#services">Research Help</a>
-                    <a href="#membership">Membership</a>
-
-                </div>
-
-
-                <div class="footer-column">
-
-                    <h4>Connect</h4>
-
-                    <a href="#contact">Contact</a>
-                    <a href="#contact">Opening Hours</a>
-                    <a href="#membership">Join Library</a>
-                    <a href="#home">Back to Top ↑</a>
+                    <div>
+                        <h4>Connect</h4>
+                        <a href="#contact">Contact</a>
+                        <a href="#membership">Membership</a>
+                        <a href="#home">Instagram</a>
+                    </div>
 
                 </div>
 
@@ -1353,9 +991,9 @@
 
             <div class="footer-bottom">
 
-                <p>© 2026 Lumina Library. All rights reserved.</p>
+                <span>© 2026 Lumina Library. All rights reserved.</span>
 
-                <p>Knowledge · Discovery · Community</p>
+                <span>Designed with curiosity ✦</span>
 
             </div>
 
